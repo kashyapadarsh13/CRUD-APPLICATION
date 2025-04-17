@@ -5,9 +5,9 @@ import route from './routes/routes.js';
 import path from 'path';
 import connectDB from './connectDB/connectDB.js';
 import bodyParser from 'body-parser';
-import req from 'express/lib/request.js';
 const port =4000;
-require('dotenv').config();
+import dotenv from 'dotenv';
+dotenv.config()
 // connection for database
 connectDB()
 
